@@ -1,0 +1,12 @@
+/* Las capturas son fondos opcionales: sin archivo, nunca aparece un icono o texto roto. */
+.image-slot > img { display: none; }
+.dashboard-frame { background-image: linear-gradient(145deg, rgba(23,60,88,.97), rgba(13,35,55,.97)), url("img/hero-dashboard.png"); background-size: cover; background-position: center; }
+[data-label="img/proyecto-repuestos-motos.png"] { background-image: url("img/proyecto-repuestos-motos.png"); }
+[data-label="img/proyecto-internet-cable.png"] { background-image: url("img/proyecto-internet-cable.png"); }
+[data-label="img/proyecto-delivery.png"] { background-image: url("img/proyecto-delivery.png"); }
+[data-label="img/proyecto-textil.png"] { background-image: url("img/proyecto-textil.png"); }
+.project-image, .experience-card { background-size: cover; background-position: center; }
+.project-image::before, .project-mark { display: none; }
+[data-label="img/experiencia-hospitales.png"] { background-image: linear-gradient(rgba(24,59,87,.2), rgba(7,25,40,.95)), url("img/experiencia-hospitales.png"); }
+[data-label="img/experiencia-institutos.png"] { background-image: linear-gradient(rgba(24,59,87,.2), rgba(7,25,40,.95)), url("img/experiencia-institutos.png"); }
+[data-label="img/experiencia-crm.png"] { background-image: linear-gradient(rgba(24,59,87,.2), rgba(7,25,40,.95)), url("img/experiencia-crm.png"); }
